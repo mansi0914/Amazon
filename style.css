@@ -27,6 +27,7 @@
 }
 .border:hover{
     border: 1.5px solid white;
+    cursor: pointer;
 }
 
 /* box 2 */
@@ -56,6 +57,7 @@
 }
 .nav-search:hover{
     border: 2px solid orange;
+    cursor: pointer;
 }
 .search-select{
     background-color: #f3f3f3;
@@ -185,7 +187,11 @@ span{
 .box-content p{
     color: #007185;
 }
-
+.box-content p:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 /* footer */
 footer{
@@ -200,12 +206,20 @@ footer{
     align-items: center;
     font-size: 0.85rem;
 }
+.foot-panel1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .foot-panel2{
     background-color: #222f3d;
     color: white;
     height: 300px;
     display: flex;
     justify-content: space-evenly;
+}
+.foot-panel2 ul p:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 ul{
     margin-top: 20px;
@@ -215,6 +229,11 @@ ul a{
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
+}
+ul a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #cccccc;
 }
 .foot-panel3{
     background-color: #222f3d;
